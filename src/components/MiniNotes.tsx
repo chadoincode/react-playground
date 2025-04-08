@@ -31,11 +31,11 @@ const MiniNotesApps = () => {
       <input 
         type="text" 
         onChange={(e) => setInput(e.target.value)}
-        className="border-b-gray-50 bg-amber-600 rounded-lg p-2 mr-2"
+        className="border-b-gray-50 bg-light rounded-lg p-1.5 mr-2"
       />
       <button 
         onClick={handleSubmit}
-        className="p-1"
+        className="p-2 text-sm bg-light cursor-pointer rounded-lg"
       >Submit</button>
       {notes.map((note) =>(
         <MiniNotesCard 
