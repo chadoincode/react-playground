@@ -5,9 +5,9 @@ const MoodButton = () => {
 
   return(
     <>
-    
-      <h2 className="font-bold text-xl">How's your mood today? {mood}</h2>
-      <div className="flex flex-row gap-3 mt-5">
+
+      <h2 className="font-bold text-lg md:text-xl">How's your mood today? {mood}</h2>
+      <div className="flex flex-col w-[50%] md:flex-row gap-3 mt-5">
         <button onClick={() => setMood("😫")} className="cursor-pointer">Tired</button>
         <button onClick={() => setMood("😰")} className="cursor-pointer">Anxious</button>
         <button onClick={() => setMood("😴")} className="cursor-pointer">Sleepy</button>

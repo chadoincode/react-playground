@@ -5,8 +5,8 @@ import MoodButton from './components/MoodButton'
 function App() {
   return (
     <>
-      {/* <MoodButton /> */}
-      <MiniNotesApp />
+      <MoodButton />
+      {/* <MiniNotesApp /> */}
     </>
   )
 }
