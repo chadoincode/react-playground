@@ -1,12 +1,12 @@
 import './App.css'
-import MiniNotesApp from './components/MiniNotes'
+import MiniNotesApps from './components/MiniNotes'
 import MoodButton from './components/MoodButton'
 
 function App() {
   return (
     <>
-      <MoodButton />
-      {/* <MiniNotesApp /> */}
+      {/* <MoodButton /> */}
+      <MiniNotesApps />
     </>
   )
 }
