@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Header from "./Header";
 
 type NoteProps = {
   id: number
@@ -27,7 +28,7 @@ const MiniNotesApps = () => {
   }
   return(
     <div>
-      <h2>Mini Notes App</h2>
+      <Header title="Mini Notes App"/>
       <input 
         type="text" 
         onChange={(e) => setInput(e.target.value)}
