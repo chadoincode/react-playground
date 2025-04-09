@@ -4,8 +4,8 @@ type HeaderProps = {
 
 const Header = ({title}: HeaderProps) => {
   return (
-    <div className="top-0 flex justify-center items-center bg-light h-20 rounded-lg mb-4">
-      <h1 className="text-2xl font-bold text-dark">{title}</h1>
+    <div className="mt-10 flex justify-center items-center mb-5">
+      <h1 className="md:text-3xl font-bold text-lg text-light">{title}</h1>
     </div>
   )
 }
