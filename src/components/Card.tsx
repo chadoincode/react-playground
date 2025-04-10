@@ -3,7 +3,7 @@ import { Link } from "react-router"
 type CardProps = {
   title: string
   description: string
-  to:  string
+  to: string
 }
 
 const MenuCard = ({title, description, to}: CardProps) => {
