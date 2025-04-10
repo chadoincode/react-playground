@@ -12,7 +12,7 @@ export const playgroundList = [
     to: "/mini-notes"
   },
   {
-    id:3,
+    id: 3,
     title: "Daily Quote Generator",
     descriprion: "A simple daily quote generator that allows you to generate a random quote.",
     to: "/quote"
